@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центр крови - Документы</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/documents.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Центр крови">
+                    <h1>Центр крови</h1>
+                </div>
+                <div class="contacts">
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (800) 123-45-67</span>
+                    </div>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Волгоград, ул. Голубинская, 9А</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Навигационное меню -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О центре</a></li>
+                    <li class="active"><a href="documents.html">Документы</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Платные услуги</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services-donor.html">Донору</a></li>
+                            <li><a href="services-family.html">Семейный код донора</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vacancies.html">Вакансии</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Основное содержимое -->
+    <main class="main documents-page">
+        <div class="container">
+            <h1>Документы</h1>
+            
+            <section class="documents-categories">
+                <h2>Содержание страницы:</h2>
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Основные нормативно-правовые акты</h3>
+                        <a href="#npa" class="btn btn-outline">Перейти</a>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-info-circle"></i>
+                        <h3>Информационно-справочные материалы</h3>
+                        <a href="#info-materials" class="btn btn-outline">Перейти</a>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-file-signature"></i>
+                        <h3>Формы анкет для проведения анкетирования</h3>
+                        <a href="#forms" class="btn btn-outline">Перейти</a>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-book"></i>
+                        <h3>Методические рекомендации</h3>
+                        <a href="#methodics" class="btn btn-outline">Перейти</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="npa" class="documents-section">
+                <h2>Основные нормативные правовые акты</h2>
+                
+                <div class="documents-accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>НПА I: Акты Президента Российской Федерации</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="documents-grid">
+                                <div class="document-item">
+                                    <img src="img/documents/doc1.jpg" alt="Указ Президента">
+                                    <div class="document-info">
+                                        <h4>Указ Президента РФ от 01.01.2025 №1</h4>
+                                        <p>О мерах по развитию донорства крови и ее компонентов</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                                <div class="document-item">
+                                    <img src="img/documents/doc2.jpg" alt="Распоряжение Президента">
+                                    <div class="document-info">
+                                        <h4>Распоряжение Президента РФ от 15.02.2025 №12</h4>
+                                        <p>Об утверждении концепции развития службы крови</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>НПА II: Акты Правительства Российской Федерации</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="documents-grid">
+                                <div class="document-item">
+                                    <img src="img/documents/doc3.jpg" alt="Постановление Правительства">
+                                    <div class="document-info">
+                                        <h4>Постановление Правительства РФ от 10.03.2025 №45</h4>
+                                        <p>О порядке медицинского обследования доноров крови</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>НПА III: Акты федеральных органов исполнительной власти</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="documents-grid">
+                                <div class="document-item">
+                                    <img src="img/documents/doc4.jpg" alt="Приказ Минздрава">
+                                    <div class="document-info">
+                                        <h4>Приказ Минздрава РФ от 05.04.2025 №123</h4>
+                                        <p>Об утверждении порядка заготовки крови</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                                <div class="document-item">
+                                    <img src="img/documents/doc5.jpg" alt="Приказ Росздравнадзора">
+                                    <div class="document-info">
+                                        <h4>Приказ Росздравнадзора от 20.04.2025 №67</h4>
+                                        <p>О контроле качества донорской крови</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>НПА IV: Региональное законодательство</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="documents-grid">
+                                <div class="document-item">
+                                    <img src="img/documents/doc6.jpg" alt="Закон региона">
+                                    <div class="document-info">
+                                        <h4>Закон Вашего региона от 15.05.2025 №34</h4>
+                                        <p>О развитии донорства в регионе</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span>НПА V: Нормативные акты учреждения</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="documents-grid">
+                                <div class="document-item">
+                                    <img src="img/documents/doc7.jpg" alt="Приказ учреждения">
+                                    <div class="document-info">
+                                        <h4>Приказ Центра крови от 01.06.2025 №5</h4>
+                                        <p>О режиме работы учреждения</p>
+                                        <a href="#" class="btn btn-small">Скачать PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="info-materials" class="documents-section">
+                <h2>Информационно-справочные материалы</h2>
+                <div class="documents-grid">
+                    <div class="document-item">
+                        <img src="img/documents/info1.jpg" alt="Информационный буклет">
+                        <div class="document-info">
+                            <h4>Буклет для доноров</h4>
+                            <p>Основная информация о донорстве крови</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                    <div class="document-item">
+                        <img src="img/documents/info2.jpg" alt="Памятка">
+                        <div class="document-info">
+                            <h4>Памятка перед сдачей крови</h4>
+                            <p>Что нужно знать перед визитом в Центр крови</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="forms" class="documents-section">
+                <h2>Формы анкет для проведения анкетирования</h2>
+                <div class="documents-grid">
+                    <div class="document-item">
+                        <img src="img/documents/form1.jpg" alt="Анкета донора">
+                        <div class="document-info">
+                            <h4>Анкета донора крови</h4>
+                            <p>Основная анкета для первичного донора</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                    <div class="document-item">
+                        <img src="img/documents/form2.jpg" alt="Анкета здоровья">
+                        <div class="document-info">
+                            <h4>Анкета состояния здоровья</h4>
+                            <p>Для регулярных доноров</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="methodics" class="documents-section">
+                <h2>Методические рекомендации</h2>
+                <div class="documents-grid">
+                    <div class="document-item">
+                        <img src="img/documents/method1.jpg" alt="Методические рекомендации">
+                        <div class="document-info">
+                            <h4>Методика забора крови</h4>
+                            <p>Рекомендации для медицинского персонала</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                    <div class="document-item">
+                        <img src="img/documents/method2.jpg" alt="Руководство">
+                        <div class="document-info">
+                            <h4>Руководство по хранению компонентов крови</h4>
+                            <p>Технические требования и стандарты</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="work-conditions">
+                <h2>Результаты проведения специальной оценки условий труда</h2>
+                <div class="documents-grid">
+                    <div class="document-item">
+                        <img src="img/documents/work1.jpg" alt="Отчет о СОУТ">
+                        <div class="document-info">
+                            <h4>Отчет о специальной оценке условий труда</h4>
+                            <p>2025 год</p>
+                            <a href="#" class="btn btn-small">Скачать PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>О центре</h3>
+                    <p>Центр крови - современное медицинское учреждение, занимающееся заготовкой, переработкой и хранением донорской крови и ее компонентов.</p>
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Волгоград, ул. Голубинская, 9А</p>
+                    <p><i class="fas fa-phone"></i> 8 (800) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@bloodcenter.ru</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Центр крови. Все права защищены.</p>
+                <p>ИНН 1234567890, ОГРН 1234567890123</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/documents.js"></script>
+</body>
+</html>

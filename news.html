@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центр крови - Новости</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Центр крови">
+                    <h1>Центр крови</h1>
+                </div>
+                <div class="contacts">
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (800) 123-45-67</span>
+                    </div>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Волгоград, ул. Голубинская, 9А</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Навигационное меню -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О центре</a></li>
+                    <li><a href="documents.html">Документы</a></li>
+                    <li class="active"><a href="news.html">Новости</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Платные услуги</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services/services-donor.html">Донору</a></li>
+                            <li><a href="services/services-family.html">Семейный код донора</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vacancies.html">Вакансии</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <section class="breadcrumbs">
+        <div class="container">
+            <ul>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Основное содержимое -->
+    <main class="main news-page">
+        <div class="container">
+            <h1>Новости центра крови</h1>
+            
+            <div class="news-filter">
+                <button class="filter-btn active" data-filter="all">Все новости</button>
+                <button class="filter-btn" data-filter="events">Мероприятия</button>
+                <button class="filter-btn" data-filter="equipment">Оборудование</button>
+                <button class="filter-btn" data-filter="announcements">Объявления</button>
+            </div>
+            
+            <div class="news-grid">
+                <!-- Новость 1 -->
+                <article class="news-card" data-category="events">
+                    <div class="news-image">
+                        <img src="img/news1.jpg" alt="Акция День донора">
+                        <span class="news-category">Мероприятие</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-05-15">15 мая 2023</time>
+                        <h2><a href="news-single.html">Акция "День донора"</a></h2>
+                        <p>Приглашаем всех желающих принять участие в ежегодной акции "День донора", которая состоится 20 мая 2023 года. Все участники получат памятные подарки и сувениры.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Новость 2 -->
+                <article class="news-card" data-category="equipment">
+                    <div class="news-image">
+                        <img src="img/news2.jpg" alt="Новое оборудование">
+                        <span class="news-category">Технологии</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-05-10">10 мая 2023</time>
+                        <h2><a href="news-single.html">Новое оборудование в центре</a></h2>
+                        <p>В нашем центре установлено новое современное оборудование для забора и обработки крови, что позволит повысить качество и безопасность процедуры.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Новость 3 -->
+                <article class="news-card" data-category="announcements">
+                    <div class="news-image">
+                        <img src="img/news3.jpg" alt="Итоги года">
+                        <span class="news-category">Объявление</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-05-01">1 мая 2023</time>
+                        <h2><a href="news-single.html">Итоги года</a></h2>
+                        <p>Подводим итоги работы за прошедший год: количество доноров, объемы заготовленной крови, новые программы и достижения.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Новость 4 -->
+                <article class="news-card" data-category="events">
+                    <div class="news-image">
+                        <img src="img/news4.jpg" alt="День открытых дверей">
+                        <span class="news-category">Мероприятие</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-04-20">20 апреля 2024</time>
+                        <h2><a href="news-single.html">День открытых дверей</a></h2>
+                        <p>Приглашаем всех желающих на день открытых дверей, где вы сможете познакомиться с работой центра, задать вопросы нашим специалистам и узнать больше о донорстве.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Новость 5 -->
+                <article class="news-card" data-category="equipment">
+                    <div class="news-image">
+                        <img src="img/news5.jpg" alt="Новые технологии">
+                        <span class="news-category">Технологии</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-04-15">15 апреля 2025</time>
+                        <h2><a href="news-single.html">Внедрение новых технологий</a></h2>
+                        <p>Наш центр внедряет инновационные методы хранения и обработки крови, что позволит увеличить сроки хранения компонентов крови без потери качества.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Новость 6 -->
+                <article class="news-card" data-category="announcements">
+                    <div class="news-image">
+                        <img src="img/news6.jpg" alt="Изменение графика">
+                        <span class="news-category">Объявление</span>
+                    </div>
+                    <div class="news-content">
+                        <time datetime="2023-04-01">1 апреля 2025</time>
+                        <h2><a href="news-single.html">Изменение графика работы</a></h2>
+                        <p>С 10 апреля центр крови будет работать по новому графику. Пожалуйста, ознакомьтесь с изменениями перед визитом.</p>
+                        <a href="news-single.html" class="read-more">Читать далее <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="pagination">
+                <a href="#" class="page-btn active">1</a>
+                <a href="#" class="page-btn">2</a>
+                <a href="#" class="page-btn">3</a>
+                <a href="#" class="page-btn next">Следующая <i class="fas fa-chevron-right"></i></a>
+            </div>
+            
+            <section class="subscribe-section">
+                <h2>Подписаться на новости</h2>
+                <p>Будьте в курсе всех событий нашего центра. Получайте новости на email.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Ваш email" required>
+                    <button type="submit" class="btn">Подписаться</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>О центре</h3>
+                    <p>Центр крови - современное медицинское учреждение, занимающееся заготовкой, переработкой и хранением донорской крови и ее компонентов.</p>
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Волгоград, ул. Голубинская, 9А</p>
+                    <p><i class="fas fa-phone"></i> 8 (800) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@bloodcenter.ru</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Центр крови. Все права защищены.</p>
+                <p>ИНН 1234567890, ОГРН 1234567890123</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/news.js"></script>
+</body>
+</html>

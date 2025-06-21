@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центр крови - Главная</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Центр крови">
+                    <h1>Центр крови</h1>
+                </div>
+                <div class="contacts">
+                    <div class="phone">
+                        <i class="fas fa-phone"></i>
+                        <span>8 (800) 123-45-67</span>
+                    </div>
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Волгоград, ул. Голубинская, 9А</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Навигационное меню -->
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О центре</a></li>
+                    <li><a href="documents.html">Документы</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Платные услуги</a>
+                        <ul class="dropdown-menu">
+                           <li><a href="services/services-donor.html">Прейскурант</a></li>
+                            <li><a href="services/services-donor.html">Семейный код донора</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="vacancies.html">Вакансии</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Баннер -->
+    <section class="banner">
+        <div class="container">
+            <h2>Сдай кровь - спаси жизнь!</h2>
+            <p>Стань донором и помоги тем, кто в этом нуждается</p>
+            <a href="donation.html" class="btn">Записаться на донацию</a>
+        </div>
+    </section>
+
+    <!-- Основное содержимое -->
+    <main class="main">
+        <div class="container">
+            <!-- Наша команда -->
+            <section class="team">
+                <h2>Администрация</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <img src="img/team1.jpg" alt="Иванов Иван Иванович">
+                        <h3>Коновалов Павел Шамильевич</h3>
+                        <p>Главный врач</p>
+                        <p><i class="fas fa-phone"></i> +7 (123) 456-78-90</p>
+                        <p><i class="fas fa-envelope"></i> pavel@bloodcenter.ru</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/team2.jpg" alt="Петрова Мария Сергеевна">
+                        <h3>Петрова Мария Сергеевна</h3>
+                        <p>Врач-трансфузиолог</p>
+                        <p><i class="fas fa-phone"></i> +7 (123) 456-78-91</p>
+                        <p><i class="fas fa-envelope"></i> petrova@bloodcenter.ru</p>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/team3.jpg" alt="Сидоров Алексей Владимирович">
+                        <h3>Монахова Наталья Генадьевна</h3>
+                        <p>Заведующий отделением</p>
+                        <p><i class="fas fa-phone"></i> +7 (123) 456-78-92</p>
+                        <p><i class="fas fa-envelope"></i> monahova@bloodcenter.ru</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Последние новости -->
+            <section class="latest-news">
+                <h2>Последние новости</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <img src="img/news1.jpg" alt="Новость 1">
+                        <h3><a href="news-single.html">Акция "День донора"</a></h3>
+                        <time datetime="2023-05-15">14 июня 2025</time>
+                    </article>
+                    <article class="news-item">
+                        <img src="img/news2.jpg" alt="Новость 2">
+                        <h3><a href="news-single.html">Новое оборудование в центре</a></h3>
+                        <time datetime="2023-05-10">10 мая 2025</time>
+                    </article>
+                    <article class="news-item">
+                        <img src="img/news3.jpg" alt="Новость 3">
+                        <h3><a href="news-single.html">Итоги года</a></h3>
+                        <time datetime="2023-05-01">1 мая 2025</time>
+                    </article>
+                </div>
+                <a href="news.html" class="btn">Все новости</a>
+            </section>
+        </div>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>О центре</h3>
+                    <p>Центр крови - современное медицинское учреждение, занимающееся заготовкой, переработкой и хранением донорской крови и ее компонентов.</p>
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Волгоград, ул. Голубинская, 9А</p>
+                    <p><i class="fas fa-phone"></i> 8 (800) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@bloodcenter.ru</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-odnoklassniki"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Центр крови. Все права защищены.</p>
+                <p>ИНН 3443900101, ОГРН 1023402987024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

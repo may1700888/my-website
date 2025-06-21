@@ -1,0 +1,121 @@
+/* Стили для страницы вакансий */
+.vacancies-page {
+    padding: 40px 0;
+}
+
+.vacancies-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--primary-color);
+}
+
+.vacancies-intro {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vacancies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.vacancies-table th {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.vacancies-table td {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+
+.vacancies-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.vacancies-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.requirements-list, .salary-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.requirements-list ul, .salary-list ul {
+    padding-left: 20px;
+}
+
+.requirements-list li, .salary-list li {
+    margin-bottom: 8px;
+}
+
+.requirements-list strong {
+    color: var(--secondary-color);
+}
+
+.application-section {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.application-section h2 {
+    margin-bottom: 40px;
+    color: var(--secondary-color);
+}
+
+.application-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.method {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.method:hover {
+    transform: translateY(-5px);
+}
+
+.method i {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.method h3 {
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
+/* Адаптивность */
+@media (max-width: 992px) {
+    .vacancies-table {
+        display: block;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .vacancies-table td {
+        padding: 15px 10px;
+    }
+    
+    .application-methods {
+        grid-template-columns: 1fr;
+    }
+}
